@@ -11,7 +11,6 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <script src="script.js"></script>
   <title>Frontend Mentor | Insure landing page</title>
 
 </head>
@@ -19,12 +18,10 @@
 <body>
   <header>
     <div><img src="./images/logo.svg" class="logo" alt="logo"></div>
-    <!-- The overlay -->
     <div id="myNav" class="overlay">
-      <!-- Button to close the overlay navigation -->
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="./images/icon-close.svg"
           alt="close"></a>
-      <!-- Overlay content -->
+
       <div class="overlay-content">
         <ul>
           <li><a href="#">How we work</a></li>
@@ -35,7 +32,6 @@
       </div>
     </div>
 
-    <!-- Use any element to open/show the overlay navigation menu -->
     <span onclick="openNav()" class="open-menu"><img src="./images/icon-hamburger.svg" alt="menu"></span>
     <nav class="desktop-nav">
       <ul class="nav_list">
@@ -50,7 +46,7 @@
   <main>
     <div class="container">
       <div class="hero_text">
-        <hr>
+        <hr class="first-hr">
         <h1 class="container-title">Humanizing your insurance.</h1>
         <p class="container-text">Get your life insurance coverage easier and faster. We blend our expertise
           and technology to help you find the plan that’s right for you. Ensure you
@@ -140,6 +136,7 @@
     </div>
   </footer>
 
+  <script src="script.js"></script>
   <script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js"
     integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD" crossorigin="anonymous">
   </script>

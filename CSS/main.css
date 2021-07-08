@@ -1,7 +1,7 @@
 /* *** MAIN CONTENT *** */
 
 /* Intro  */
-hr {
+.first-hr {
   display: none;
 }
 
@@ -17,9 +17,7 @@ hr {
 .hero_text {
   width: 100%;
   height: 50%;
-  background-image: url('../images/bg-pattern-intro-left-mobile.svg');
-  background-repeat: no-repeat;
-  background-position: top left;
+  background: url('../images/bg-pattern-intro-left-mobile.svg') no-repeat top left;
   text-align: center;
 }
 
@@ -28,8 +26,7 @@ hr {
   position: absolute;
   width: 33%;
   height: 100%;
-  background-image: url('../images/bg-pattern-intro-right-mobile.svg');
-  background-repeat: no-repeat;
+  background: url('../images/bg-pattern-intro-right-mobile.svg') no-repeat;
   right: 0;
 }
 
@@ -42,32 +39,22 @@ hr {
 }
 
 .container-title {
+  font-family: 'DM Serif Display', serif;
   font-size: 3rem;
   padding: 60px 50px 20px 50px;
 }
 
 .container-text {
-  font-size: 1rem;
-  font-family: 'Karla', sans-serif;
   line-height: 1.6;
   padding: 1rem 2rem;
 }
 
 .plans {
   margin: 2rem 1rem 6rem 1rem;
-  padding: 15px 40px;
-  text-decoration: none;
-  text-transform: uppercase;
-  display: inline-block;
-  font-family: 'Karla', sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  color: var(--lightgray);
   border: 2px solid var(--lightgray);
 }
 
 .plans:hover {
-  border: 3px solid var(--vdarkviolet);
   background-color: var(--lightgray);
   color: var(--vdarkviolet);
 }
@@ -80,6 +67,7 @@ hr {
 }
 
 .section-title {
+  font-family: 'DM Serif Display', serif;
   font-size: 2.5rem;
   padding: 30px 20px 50px 20px;
   color: var(--vdarkviolet);
@@ -97,6 +85,7 @@ hr {
 }
 
 .col-title {
+  font-family: 'DM Serif Display', serif;
   font-size: 1.5rem;
   color: var(--vdarkviolet);
 }
@@ -104,24 +93,20 @@ hr {
 .col-p {
   padding: 1rem 1.5rem;
   color: var(--dgrayishviolet);
-  font-family: 'Karla', sans-serif;
-  font-size: 1rem;
 }
 
 /* ABOUT */
 
 .about {
-  background-color: var(--darkviolet);
   text-align: center;
-  background-image: url('../images/bg-pattern-how-we-work-mobile.svg');
-  background-repeat: no-repeat;
-  background-position: top right;
+  background: var(--darkviolet) url('../images/bg-pattern-how-we-work-mobile.svg') no-repeat top right;
   width: 90%;
   margin-inline: auto;
   margin-bottom: 100px;
 }
 
 .about-title {
+  font-family: 'DM Serif Display', serif;
   color: var(--lightgray);
   font-size: 2.5rem;
   padding: 60px 10px 20px 10px;
@@ -129,14 +114,6 @@ hr {
 
 .work a {
   margin: 2rem 1rem 6rem 1rem;
-  padding: 15px 40px;
-  text-decoration: none;
-  text-transform: uppercase;
-  display: inline-block;
-  font-family: 'Karla', sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  color: var(--lightgray);
   border: 2px solid var(--lightgray);
 }
 
@@ -189,7 +166,7 @@ hr {
 
 @media (min-width: 992px) {
 
-  hr {
+  .first-hr {
     display: inline-block;
     width: 20%;
     margin-top: 50px;
@@ -208,8 +185,7 @@ hr {
     height: 100%;
     top: -21%;
     right: -25%;
-    background-image: url('../images/bg-pattern-intro-right-desktop.svg');
-    background-repeat: no-repeat;
+    background: url('../images/bg-pattern-intro-right-desktop.svg') no-repeat;
   }
 
   .container-title {
@@ -238,10 +214,9 @@ hr {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url('../images/bg-pattern-intro-left-desktop.svg');
-    background-repeat: no-repeat;
+    background: url('../images/bg-pattern-intro-left-desktop.svg') no-repeat;
     left: 0%;
-    top: 100%;
+    top: 105%;
   }
 
   .hero_photo {
@@ -291,8 +266,7 @@ hr {
   .about {
     text-align: left;
     display: flex;
-    background-image: url('../images/bg-pattern-how-we-work-desktop.svg');
-    background-repeat: no-repeat;
+    background: var(--darkviolet) url('../images/bg-pattern-how-we-work-desktop.svg') no-repeat right;
   }
 
   .about-title {
